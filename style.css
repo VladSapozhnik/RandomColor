@@ -1,0 +1,52 @@
+body {
+    font-family: 'DynaPuff', cursive;
+    font-weight: 700;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    max-width: 100%;
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 span {
+    margin: 0;
+    padding: 0;
+    transition: color 1s;
+}
+
+.h1 {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 172px;
+
+    display: flex;
+}
+
+.subtitle {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    padding: 5px 0;
+    font-size: 44px;
+    left: 0;
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+/* .subtitle.active {
+    background: linear-gradient(180deg, rgba(19, 117, 188, 1) 0%, rgba(252, 223, 9, 1) 0%);
+    color: #fff;
+} */
